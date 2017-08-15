@@ -1,0 +1,34 @@
+.maroon-back{
+  background: #5b0034;
+  color: #ffffcc
+}
+
+.light-maroon-back {
+  background: #c17da4;
+  color: #ffffcc
+}
+
+.tan-back {
+  background: #ffffcc;
+  color: #5b0034
+}
+
+.tall-div{
+  height: 500px
+}
+
+.short-div{
+  height: 230px
+}
+
+.dark-left-border{
+  padding-left: 25px;
+  border-left: double #5b0034;
+  border-left-width: 23px
+}
+
+.light-left-border{
+  padding-left: 25px;
+  border-left: double #c17da4;
+  border-left-width: 23px
+}

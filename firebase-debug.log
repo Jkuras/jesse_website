@@ -1,0 +1,112 @@
+[debug] [2017-08-15T19:42:25.107Z] ----------------------------------------------------------------------
+[debug] [2017-08-15T19:42:25.109Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jesse Lee Kuras\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --project website-97f37
+[debug] [2017-08-15T19:42:25.110Z] CLI Version:   3.9.2
+[debug] [2017-08-15T19:42:25.110Z] Platform:      win32
+[debug] [2017-08-15T19:42:25.110Z] Node Version:  v6.10.3
+[debug] [2017-08-15T19:42:25.110Z] Time:          Tue Aug 15 2017 12:42:25 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:42:25.110Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-15T19:42:25.120Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-15T19:42:25.120Z] > authorizing via signed-in user
+[debug] [2017-08-15T19:42:25.122Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/website-97f37  
+ Tue Aug 15 2017 12:42:25 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:42:25.938Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-15T19:42:25.940Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/website-97f37/tokens  
+ Tue Aug 15 2017 12:42:25 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:42:26.811Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\jesse_website'...
+[info] 
+[debug] [2017-08-15T19:42:26.818Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/website-97f37  
+ Tue Aug 15 2017 12:42:26 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:42:27.283Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-15T19:42:27.284Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/793947305149/clients/_:getWebAppConfig  
+ Tue Aug 15 2017 12:42:27 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:42:27.757Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-15T19:47:34.072Z] ----------------------------------------------------------------------
+[debug] [2017-08-15T19:47:34.074Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jesse Lee Kuras\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --project website-97f37
+[debug] [2017-08-15T19:47:34.075Z] CLI Version:   3.9.2
+[debug] [2017-08-15T19:47:34.075Z] Platform:      win32
+[debug] [2017-08-15T19:47:34.075Z] Node Version:  v6.10.3
+[debug] [2017-08-15T19:47:34.075Z] Time:          Tue Aug 15 2017 12:47:34 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:47:34.075Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-15T19:47:34.084Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-15T19:47:34.085Z] > authorizing via signed-in user
+[debug] [2017-08-15T19:47:34.086Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/website-97f37  
+ Tue Aug 15 2017 12:47:34 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:47:35.093Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-15T19:47:35.094Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/website-97f37/tokens  
+ Tue Aug 15 2017 12:47:35 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:47:35.441Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'G:\jesse_website'...
+[info] 
+[debug] [2017-08-15T19:47:35.443Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/website-97f37  
+ Tue Aug 15 2017 12:47:35 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:47:35.784Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-15T19:47:35.785Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/793947305149/clients/_:getWebAppConfig  
+ Tue Aug 15 2017 12:47:35 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:47:36.207Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-08-15T19:48:33.888Z] Error: write after end
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:441:15)
+    at ReadStream.ondata (_stream_readable.js:555:20)
+    at emitOne (events.js:96:13)
+    at ReadStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ReadStream.Readable.push (_stream_readable.js:134:10)
+    at onread (fs.js:2018:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:682:17)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-08-15T19:48:33.891Z] Error: write after end
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:441:15)
+    at ReadStream.ondata (_stream_readable.js:555:20)
+    at emitOne (events.js:96:13)
+    at ReadStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ReadStream.Readable.push (_stream_readable.js:134:10)
+    at onread (fs.js:2018:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:682:17)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-08-15T19:48:33.892Z] Error: write after end
+    at ServerResponse.OutgoingMessage.write (_http_outgoing.js:441:15)
+    at ReadStream.ondata (_stream_readable.js:555:20)
+    at emitOne (events.js:96:13)
+    at ReadStream.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at ReadStream.Readable.push (_stream_readable.js:134:10)
+    at onread (fs.js:2018:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:682:17)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-08-15T19:48:39.719Z] ----------------------------------------------------------------------
+[debug] [2017-08-15T19:48:39.721Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jesse Lee Kuras\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --project website-97f37
+[debug] [2017-08-15T19:48:39.721Z] CLI Version:   3.9.2
+[debug] [2017-08-15T19:48:39.721Z] Platform:      win32
+[debug] [2017-08-15T19:48:39.721Z] Node Version:  v6.10.3
+[debug] [2017-08-15T19:48:39.722Z] Time:          Tue Aug 15 2017 12:48:39 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:48:39.722Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-15T19:48:39.730Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-15T19:48:39.731Z] > authorizing via signed-in user
+[debug] [2017-08-15T19:48:39.733Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/website-97f37  
+ Tue Aug 15 2017 12:48:39 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:48:40.621Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-15T19:48:40.624Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/website-97f37/tokens  
+ Tue Aug 15 2017 12:48:40 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-08-15T19:48:41.249Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'website-97f37'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] [2017-08-15T19:48:44.477Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/website-97f37/uploads/-KrbRD9N_cfzzfHAArcm?fileCount=27&message=  
+ Tue Aug 15 2017 12:48:44 GMT-0700 (Pacific Daylight Time)
